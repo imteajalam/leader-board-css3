@@ -4,6 +4,43 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0;
+  padding: 0;
+}
+/* ----------------
+ header styles
+------------------ */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 94px;
+  text-decoration: none;
+  color: #ffff;
+  background: #562eff;
+}
+.fa-lightbulb {
+  margin-left: 150px;
+  width: 54px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav ul li a {
+  color: #ffff;
+  text-decoration: none;
+
+  margin-right: 36px;
+}
+.navbar img {
+  width: 51px;
+  height: 51px;
 }
 main {
   display: flex;
@@ -138,7 +175,8 @@ courses style
   .container {
     width: 100%;
   }
-  .players,.courses {
+  .players,
+  .courses {
     grid-template-columns: repeat(2, 1fr);
   }
   .blogs {
